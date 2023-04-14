@@ -1,18 +1,19 @@
 # chat-diary-server
 
+
 ```
 .
 ├── README.md
 ├── cmd
 │   └── main.go
+├── domain
 ├── go.mod
 ├── go.sum
-└── internal
-    ├── app
-    │   ├── handler
-    │   │   └── hello.go
-    │   └── router
-    │       └── router.go
-    ├── domain
-    └── infrastructure
+├── infrastructure
+├── interface
+│   ├── handler
+│   │   └── hello.go
+│   └── router
+│       └── router.go
+└── usecase
 ```
