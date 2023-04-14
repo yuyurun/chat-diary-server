@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"chat-diary-server/internal/app/handler"
+  "chat-diary-server/interface/handler"
 )
 
 func SetupRouter() *gin.Engine {

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"chat-diary-server/internal/app/router"
+	"chat-diary-server/interface/router"
 )
 
 func main() {
